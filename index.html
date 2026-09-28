@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aura & Co. | Curated Aesthetic & Lifestyle</title>
+  <style>
+    /* Reset & Base Styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      background-color: #faf7f5;
+      color: #333333;
+      line-height: 1.6;
+    }
+
+    /* Container */
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    /* Profile Header */
+    .profile-header {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #ffffff;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      margin-bottom: 16px;
+    }
+    .profile-header h1 {
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: #2c2c2c;
+      margin-bottom: 6px;
+    }
+    .profile-header p {
+      font-size: 0.95rem;
+      color: #666666;
+      max-width: 480px;
+      margin: 0 auto 16px auto;
+    }
+    .location-badge {
+      display: inline-block;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      background-color: #e8e3dd;
+      color: #555555;
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-bottom: 24px;
+    }
+
+    /* Section Styling */
+    .section-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      color: #8c7b70;
+      margin-bottom: 16px;
+      text-align: center;
+    }
+
+    /* Links / Action Buttons */
+    .link-card {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #ffffff;
+      padding: 16px 20px;
+      margin-bottom: 14px;
+      border-radius: 12px;
+      text-decoration: none;
+      color: #333333;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      border: 1px solid #f0ebe6;
+    }
+    .link-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+    }
+    .link-info {
+      display: flex;
+      flex-direction: column;
+    }
+    .link-title {
+      font-weight: 600;
+      font-size: 1rem;
+      color: #2c2c2c;
+    }
+    .link-subtitle {
+      font-size: 0.85rem;
+      color: #777777;
+    }
+    .link-arrow {
+      font-size: 1.2rem;
+      color: #8c7b70;
+    }
+
+    /* Social Icons */
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      margin-top: 32px;
+      margin-bottom: 32px;
+    }
+    .social-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      height: 44px;
+      background-color: #ffffff;
+      border-radius: 50%;
+      text-decoration: none;
+      color: #8c7b70;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      transition: background-color 0.2s ease;
+    }
+    .social-icon:hover {
+      background-color: #e8e3dd;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      font-size: 0.8rem;
+      color: #999999;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Header -->
+    <header class="profile-header">
+      <img src="profile.jpg" alt="Aura Profile Picture" class="profile-img" />
+      <h1>Aura & Co.</h1>
+      <span class="location-badge">📍 Fiji</span>
+      <p>Curating everyday aesthetic inspiration, lifestyle essentials, digital guides, and favorite beauty picks.</p>
+    </header>
+
+    <!-- Section 1: Digital Products & Guides -->
+    <div class="section-title">Shop & Guides</div>
+
+    <a href="#" class="link-card" target="_blank">
+      <div class="link-info">
+        <span class="link-title">✨ Pinterest Growth & Aesthetic Guide</span>
+        <span class="link-subtitle">Download my step-by-step strategy PDF</span>
+      </div>
+      <span class="link-arrow">→</span>
+    </a>
+
+    <a href="#" class="link-card" target="_blank">
+      <div class="link-info">
+        <span class="link-title">🎨 Minimalist Canva Templates</span>
+        <span class="link-subtitle">Reusable Pinterest & Instagram post designs</span>
+      </div>
+      <span class="link-arrow">→</span>
+    </a>
+
+    <!-- Section 2: Favorite Recommendations / Affiliate Links -->
+    <div class="section-title" style="margin-top: 28px;">Curated Favorites</div>
+
+    <a href="#" class="link-card" target="_blank">
+      <div class="link-info">
+        <span class="link-title">🧴 Skincare & Beauty Must-Haves</span>
+        <span class="link-subtitle">Shop my daily routines and holy grail products</span>
+      </div>
+      <span class="link-arrow">→</span>
+    </a>
+
+    <a href="#" class="link-card" target="_blank">
+      <div class="link-info">
+        <span class="link-title">🌿 Cozy Home & Lifestyle Edit</span>
+        <span class="link-subtitle">Aesthetic decor and organization finds</span>
+      </div>
+      <span class="link-arrow">→</span>
+    </a>
+
+    <!-- Social Links -->
+    <div class="social-links">
+      <a href="https://pinterest.com" target="_blank" class="social-icon" title="Pinterest">📌</a>
+      <a href="https://instagram.com" target="_blank" class="social-icon" title="Instagram">📷</a>
+      <a href="mailto:yourname@email.com" class="social-icon" title="Email Contact">✉️</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2026 Aura & Co. All rights reserved.</p>
+    </footer>
+  </div>
+
+</body>
+</html>
